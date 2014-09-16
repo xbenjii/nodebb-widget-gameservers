@@ -1,0 +1,18 @@
+{
+	"id": "nodebb-widget-gameservers",
+	"name": "NodeBB GameServers Widget",
+	"description": "Gameserver list widget",
+	"url": "https://github.com/xCRNSx/nodebb-widget-gameservers",
+	"library": "./library.js",
+	"hooks": [
+        {"hook": "static:app.load", "method": "init"},
+		{"hook": "filter:widgets.getWidgets", "method": "defineWidget"},
+		{"hook": "filter:widget.render:gameservers", "method": "renderWidget"}
+	],
+	"templates": "./public/templates",
+	"staticDirs": {
+        "js": "public/js",
+        "css": "public/css"
+    },
+    "compatibility": "~0.5.0"
+}

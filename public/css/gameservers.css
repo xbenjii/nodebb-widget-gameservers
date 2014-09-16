@@ -1,0 +1,14 @@
+.gameservers-servers-container {
+    cursor: default;
+}
+.gameservers-servers-container i.fa {
+    cursor: hand;
+    cursor: pointer;
+}
+.gameservers-toolbar {
+    overflow: hidden;
+    margin-top: 10px;
+}
+.gamespace {
+	margin-top: 10px;
+}
