@@ -7,7 +7,7 @@
         path = require('path'),
         meta = module.parent.require('./meta'),
         sockets = module.parent.require('./socket.io'),
-        templates = module.parent.require('../public/src/templates'),
+        templates = module.parent.require('templates.js'),
         noop = function(){};
 
     var Widget = {
